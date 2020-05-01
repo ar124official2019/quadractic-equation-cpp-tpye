@@ -1,0 +1,40 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	0.0.0	/a3c87ab5/
+Clean it	test-it/README.md	/^### Clean it$/;"	S
+Compilation	test-it/README.md	/^### Compilation$/;"	S
+QuadraticEquation	quadratic-equation.cpp	/^QuadraticEquation::QuadraticEquation() {$/;"	f	class:QuadraticEquation
+QuadraticEquation	quadratic-equation.cpp	/^QuadraticEquation::QuadraticEquation(const QuadraticEquation* existing_equation) {$/;"	f	class:QuadraticEquation
+QuadraticEquation	quadratic-equation.cpp	/^QuadraticEquation::QuadraticEquation(double coef_a, double coef_b, double coef_c) {$/;"	f	class:QuadraticEquation
+QuadraticEquation	quadratic-equation.h	/^class QuadraticEquation {$/;"	c
+Really test it	test-it/README.md	/^## Really test it$/;"	s
+Requirements	test-it/README.md	/^### Requirements$/;"	S
+Run	test-it/README.md	/^### Run$/;"	S
+__QUADRATIC_H__	quadratic-equation.h	/^#define __QUADRATIC_H__$/;"	d
+clean	test-it/Makefile	/^clean:$/;"	t
+coef_a	quadratic-equation.h	/^    double coef_a;$/;"	m	class:QuadraticEquation	typeref:typename:double
+coef_b	quadratic-equation.h	/^    double coef_b;$/;"	m	class:QuadraticEquation	typeref:typename:double
+coef_c	quadratic-equation.h	/^    double coef_c;$/;"	m	class:QuadraticEquation	typeref:typename:double
+compile	test-it/Makefile	/^compile:$/;"	t
+get_root	quadratic-equation.cpp	/^double QuadraticEquation::get_root(bool which_root) const {$/;"	f	class:QuadraticEquation	typeref:typename:double
+main	test-it/main.cpp	/^int main(int argc, char **argv) {$/;"	f	typeref:typename:int
+operator +	quadratic-equation.cpp	/^QuadraticEquation QuadraticEquation::operator+(const QuadraticEquation other_equation) {$/;"	f	class:QuadraticEquation	typeref:typename:QuadraticEquation
+operator ++	quadratic-equation.cpp	/^QuadraticEquation QuadraticEquation::operator++() {$/;"	f	class:QuadraticEquation	typeref:typename:QuadraticEquation
+operator ++	quadratic-equation.cpp	/^QuadraticEquation QuadraticEquation::operator++(int) { $/;"	f	class:QuadraticEquation	typeref:typename:QuadraticEquation
+operator -	quadratic-equation.cpp	/^QuadraticEquation QuadraticEquation::operator-(const QuadraticEquation other_equation) {$/;"	f	class:QuadraticEquation	typeref:typename:QuadraticEquation
+operator --	quadratic-equation.cpp	/^QuadraticEquation QuadraticEquation::operator--() {$/;"	f	class:QuadraticEquation	typeref:typename:QuadraticEquation
+operator --	quadratic-equation.cpp	/^QuadraticEquation QuadraticEquation::operator--(int) { $/;"	f	class:QuadraticEquation	typeref:typename:QuadraticEquation
+operator ==	quadratic-equation.cpp	/^bool QuadraticEquation::operator==(QuadraticEquation other_equation) const {$/;"	f	class:QuadraticEquation	typeref:typename:bool
+pretty_print	quadratic-equation.cpp	/^void QuadraticEquation::pretty_print(bool trailing_new_line) const {$/;"	f	class:QuadraticEquation	typeref:typename:void
+program	test-it/Makefile	/^program: compile$/;"	t
+quadratic-equation-c++-type	README.md	/^# quadratic-equation-c++-type$/;"	c
+quadratic-equation-c++-type	test-it/README.md	/^# quadratic-equation-c++-type$/;"	c
+run	test-it/Makefile	/^run:$/;"	t
+test	test-it/test.cpp	/^void test() {$/;"	f	typeref:typename:void
+test_it	test-it/README.md	/^# test_it$/;"	c
+~QuadraticEquation	quadratic-equation.cpp	/^QuadraticEquation::~QuadraticEquation() { $/;"	f	class:QuadraticEquation
